@@ -1,8 +1,9 @@
 ## Adivina adivinador....
 import random
-numero_aleatorio = random.randrange(100)
+numero_max = 100
+numero_aleatorio = random.randrange(numero_max + 1)
 gane = False
-print("Tenés 5 intentos para adivinar un entre 0 y 99")
+print("Tenés 5 intentos para adivinar un entre 0 y 100")
 intento = 1
 veces = 5
 while intento < 6 and not gane:
