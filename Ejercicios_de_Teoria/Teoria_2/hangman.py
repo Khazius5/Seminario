@@ -125,7 +125,7 @@ while True:
             print('Te quedaste sin intentos !\n Despues de ' + str(len(missed_Letters)) + ' intentos fallidos y ' + str(len(correct_Letters)) + ' letras correctas, la palabra era "' + secret_Word + '"')
             game_Over = True
 
-    # Pregunta al jugador si quiere volver a jugar solo si el juego terminó.
+    # Pregunta al jugador si quiere volver a jugar solo si el juego termino.
     if game_Over:
         if playAgain():
             missed_Letters = ''
