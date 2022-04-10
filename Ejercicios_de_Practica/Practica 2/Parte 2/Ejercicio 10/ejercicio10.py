@@ -5,12 +5,12 @@
 
 arch_notas1 = open('eval1.txt' , mode="r" , encoding="UTF-8")
 arch_notas2 = open('eval2.txt', mode="r" , encoding="UTF-8")
-arc_nombres = open('nombres_1.txt', mode="r" , encoding="UTF-8")
+arch_nombres = open('nombres_1.txt', mode="r" , encoding="UTF-8")
 
 
 notas1 = arch_notas1.read().split(",")
 notas2 = arch_notas2.read().split(",")
-nombres = arc_nombres.read().replace(" ", "").split()
+nombres = arch_nombres.read().replace(" ", "").split()
 
 alumnos = []
 nota_total= 0
@@ -30,7 +30,7 @@ for alumno in alumnos:
 
 
 arch_notas1.close()
-arc_nombres.close()
+arch_nombres.close()
 arch_notas2.close()
 
 for alumno in alumnos: 
