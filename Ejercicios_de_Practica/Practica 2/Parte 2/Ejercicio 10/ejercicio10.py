@@ -28,7 +28,6 @@ for alumno in alumnos:
         print(alumno)
 
 
-
 arch_notas1.close()
 arch_nombres.close()
 arch_notas2.close()
